@@ -1,0 +1,353 @@
+@charset "Shift_Jis";
+
+
+
+
+
+/** ---------- 基本書式 ---------- **/
+
+*{	border			   :none;}
+
+html{	scrollbar-arrow-color      :#dcdcdc;
+
+	scrollbar-3dlight-color    :#fff;
+
+	scrollbar-darkshadow-color :#fff;
+
+	scrollbar-face-color       :#fff;
+
+	scrollbar-highlight-color  :#fff;
+
+	scrollbar-shadow-color     :#fff;
+
+	scrollbar-track-color      :#fff;}
+
+body{	margin                     :40px 0px;
+
+	padding			   :0px;
+
+	line-height                :15pt;
+
+	letter-spacing             :2px;
+
+	text-align                 :right;
+
+	color                      :#555;
+
+	background                 :#fff url("./img/top.jpg") no-repeat fixed left top;}
+
+
+
+
+
+/** ---------- 小説ページ ---------- **/
+
+#novel{	margin		:10px;
+
+	padding		:0px;
+
+	text-align	:center;}
+
+.nbox{	margin		:100px 0px 50px 0px;
+
+	padding		:0;
+
+	width		:80%;
+
+	font-size	:84%;
+
+	line-height	:150%;
+
+	text-align	:left;}
+
+
+
+
+
+/** --------- リンク設定 --------- **/
+
+a:link     {color          :#777;}
+
+a:visited  {color          :#777;}
+
+a:active   {color          :#777;}
+
+a:hover    {color          :#999;}
+
+a{text-decoration          :none;}
+
+
+
+
+
+/** ---------- インデックス右添えの箱 ---------- **/
+
+#block{	width		:600px;
+
+	padding		:10px 0 20px 0;
+
+	margin		:0 15px 0 auto;
+
+	text-align	:left;}
+
+
+
+/** ---------- メインボックス ---------- **/
+
+#box{	width           :570px;
+
+	margin	        :0px 5px 10px 15px;
+
+	padding		:0;
+
+	text-align      :left;}
+
+
+
+/** ---------- フォントサイズ８４％ ---------- **/
+
+.text{	font-size	:84%;
+
+	line-height	:140%;}
+
+
+
+/** ---------- TOP右寄せ ---------- **/
+
+.top{	font		:bold 12px Georgia,Times,serif,Verdana;
+
+	text-align	:right;}
+
+
+
+
+
+/** ---------- 　Ｈ１　 ---------- **/
+
+h1{	color		:#708090;
+
+	font-size	:150%;
+
+	font-weight	:normal;
+
+	font-family	:Georgia,Times,"Times New Roman",serif,Verdana;
+
+	margin 		:30px 0 5px 10px;
+
+	padding-top	:15px;
+
+	text-align	:left;}
+
+
+
+/** ---------- 　Ｈ３　 ---------- **/
+
+h3{	color		:#708090;
+
+	font-size	:140%;
+
+	font-weight	:normal;
+
+	margin		:300px 0 0 0;
+
+	padding		:0;
+
+	text-align	:left;}
+
+
+
+/** ---------- 　Ｈ４　 ---------- **/
+
+h4{	color		:#708090;
+
+	line-height	:150%;
+
+	font-size	:94%;
+
+	font-weight	:normal;
+
+	margin-top	:25px;
+
+	padding		:0px;
+
+	text-align	:left;
+
+	border-bottom	:2px solid #dcdcdc;}
+
+
+
+/** ---------- 小見出し ---------- **/
+
+.title{	margin		:0px 40px;
+
+	text-align	:left;
+
+	color		:#808080;
+
+	font		:9px Georgia,Times,serif,Verdana;}
+
+
+
+
+
+
+
+/********** HEADER_MENU **********/
+
+#menu{
+
+margin-top                 :25px;
+
+padding-bottom             :45px;
+
+text-align                 :right;
+
+height                     :auto;
+
+width                      :600px;
+
+font-size                  :84%;}
+
+
+
+#menu ul{
+
+list-style                 :none;
+
+text-align                 :right;
+
+padding                    :3px 0 0 5px;}
+
+
+
+#menu li{
+
+display                    :inline;
+
+list-style                 :none;
+
+margin-right               :1px;
+
+letter-spacing             :2px;}
+
+
+
+#menu a{
+
+width                      :100px;}
+
+
+
+#menu li a{
+
+padding                    :5px 40px 3px 1px;
+
+margin-top                 :3px;
+
+font                       :bold 100% Helvetica,Arial,sans-serif;
+
+text-decoration            :none;}
+
+
+
+#menu li a:link,
+
+#menu li a:visited{
+
+font-weight                :bold;
+
+color                      :#708090;}
+
+
+
+#menu li a:hover{
+
+color                      :#a9a9a9;
+
+background-color           :#fff;}
+
+
+
+#menu h2{
+
+display                    :none;
+
+margin                     :15px 15px 0 0;}
+
+
+
+
+
+/********** FOOTER **********/
+
+
+
+#footer{
+
+margin                     :70px 0 35px 0;
+
+text-align                 :right;
+
+height                     :auto;
+
+width                      :600px;
+
+font-size                  :84%;}
+
+
+
+#footer ul{
+
+list-style                 :none;
+
+padding                    :3px 0 5px 5px;}
+
+
+
+#footer li{
+
+display                    :inline;
+
+list-style                 :none;
+
+text-align                 :right;
+
+margin                     :0 10px 0 20px;
+
+letter-spacing             :3px;}
+
+
+
+#footer li a{
+
+padding                    :3px 10px 3px 1px;
+
+margin-top                 :2px;
+
+font                       :bold 8px Georgia,Times,"Times New Roman",serif,Verdana;
+
+text-decoration            :none;}
+
+
+
+#footer li a:link,
+
+#footer li a:visited{
+
+color                      :#444;}
+
+
+
+#footer li a:hover{
+
+color                      :#888;
+
+background-color           :#fff;}
+
+
+
+#footer li address{
+
+display                    :inline;
+
+font-style                 :normal;}
