@@ -1,0 +1,60 @@
+@charset "shift_jis";
+
+
+
+/* リンク部分 */
+
+a { text-decoration: none; }
+
+a:link,a:visited{color:#404040;}
+
+a:hover,a:active{ color:#000000;text-decoration:underline;}
+
+
+
+/* スクロールバー（見た目がデフォルトで変わるのはIEのみです）、ページの背景色、ページ四辺のマージン値 */
+
+body  {scrollbar-face-color: #ffffff;scrollbar-highlight-color: #ffffff;
+
+scrollbar-shadow-color: #606060;scrollbar-3dlight-color: #606060;
+
+scrollbar-arrow-color: ffffff;scrollbar-track-color: #ffffff;
+
+scrollbar-darkshadow-color: #ffffff;background-color:#ffffff;margin:5% 5% 5% 0%;}
+
+
+
+/* ページ全体のフォントの指定 */
+
+body,div{ color:#404040;font-size:92%;font-family: Verdana,sans-serif,"ＭＳ Ｐゴシック",Osaka;}
+
+
+
+/* 作品タイトル部分。 */
+
+.title03{width:20%;margin-bottom:10px;font-size:100%;border-bottom:1px #404040 solid;padding-bottom:2px;text-align:center;}
+
+
+
+/* 本文部分。行の高さとパディング値は罫線画像のサイズに合わせてありますので、数値を変えますと罫線と文章がずれる場合があります。 */
+
+.kiji03{margin-bottom:20px;margin-left:180px;width:95%;background-image:url(line1.gif);line-height:25px;padding-top:20px;}
+
+
+
+/* back to index部分 */
+
+.back{font-size:90%;margin:10px 0px 0px 150px;margin-top:30px;border-top:1px #404040 solid;padding-top:2px;text-align:center;}
+
+
+
+/* 当方の著作権部分。非表示でも構いません */
+
+.guide{font-size:90%;margin-top:40px;text-align:right;}
+
+
+
+/* A Moveable Feast(http://twedgi.net/feast/) */
+
+
+

@@ -1,0 +1,56 @@
+body,td{ 
+
+letter-spacing : 2px;
+
+line-height : 19pt;
+
+ font-family:Verdana,Osaka;
+
+//文字同士の間の幅指定タグ4は横の間15は縦
+
+}
+
+
+
+body {
+
+ margin:5% 13%;}
+
+
+
+body,td,th{font-size:11pt; color:#6a6a6a;
+
+}
+
+A:link   {text-decoration: none; color:#454545;}
+
+A:visited{text-decoration: none; color:#454545;}
+
+A:active {text-decoration: none; color:#454545;}
+
+A:hover  {text-decoration: none; color:#c0c0c0;}
+
+
+
+h2{
+
+   margin:0 25 15 0;
+
+   padding:7 0 7 5;
+
+   font-size:100%;
+
+   font-weight:lighter;
+
+   border:1px solid #ccc;
+
+   background-color:#bcd7be; }
+
+
+
+
+
+
+
+br{letter-spacing:normal;}
+

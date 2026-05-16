@@ -1,0 +1,77 @@
+@charset "shift_jis";
+
+
+
+/* リンク部分の装飾  */
+
+a { text-decoration: none; }
+
+a:link,a:visited{ color:#505050;}
+
+a:active{ color:#c0c0c0;}
+
+a:hover{ color:#000000;text-decoration:underline;}
+
+
+
+/* スクロールバーの見た目（デフォルトで変わるのはIEのみです）、ページの背景色、ページ四辺のスペース（マージン値）  */
+
+body  {background-color:#ffffff;margin:5%;}
+
+
+
+/* ページ全体のフォントの色、サイズ、スタイルの指定。 */
+
+body,div{color:#505050;font-size:90%;font-family: Verdana,sans-serif,"ＭＳ Ｐゴシック",Osaka; }
+
+
+
+/* ログ部分全体のサイズ  */
+
+.novel {position: relative;width:70%;}
+
+
+
+/* 左側の指定  */
+
+#left { position:absolute;top:0;left:0;width:150px;font-size:100%;border:none;}
+
+
+
+/* 右側の指定  */
+
+#right { position:absolute;top:0;left:170px;width:100%;font-size:100%;border:none;}
+
+
+
+/* 左側のWORKS部分。ブラウザによるタグ解釈の差異解消のため入れ子にしてあります */
+
+.wks1{width:150px;height:150px;border:1px #505050 solid;text-align:center;border:none;}
+
+.wks2{width:100%;padding-top:1px;font-size:180%;border:none;}
+
+
+
+/* 右側の記事部分。ブラウザによるタグ解釈の差異解消のため入れ子にしてあります */
+
+.kiji1{width:100%;font-size:100%;border:1px #505050 solid;}
+
+.kiji2{font-size:100%;padding:20px;line-height:180%;}
+
+.title{width:100%;font-size:100%;padding-top:20px;text-align:center;}
+
+
+
+/* back to index部分  */
+
+.guide{width:100%;font-size:100%;text-align:right;padding-top:20px;}
+
+
+
+/* 著作権表示部分  */
+
+.copy{width:100%;font-size:100%;text-align:right;margin-top:60px;}
+
+
+
+/* A Moveable Feast(http://twedgi.net/feast/) */
