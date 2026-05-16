@@ -1,0 +1,78 @@
+body,td{ 
+
+letter-spacing : 2px;
+
+line-height : 16pt;
+
+ font-family:Verdana,Osaka;
+
+//文字同士の間の幅指定タグ4は横の間15は縦
+
+}
+
+
+
+body {
+
+ scrollbar-arrow-color:white; 
+
+ scrollbar-base-color:black; 
+
+ scrollbar-highlight-color:black; 
+
+ scrollbar-face-color:black;
+
+ scrollbar-shadow-color:black; 
+
+ scrollbar-darkshadow-color:black; 
+
+ scrollbar-track-color:white;
+
+ margin:3%;}
+
+
+
+body,td,th{font-size:11pt; color:#454545;
+
+}
+
+A:link   {text-decoration: none; color:#454545;}
+
+A:visited{text-decoration: none; color:#454545;}
+
+A:active {text-decoration: none; color:#454545;}
+
+A:hover  {text-decoration: none; color:#c0c0c0;}
+
+
+
+h2{
+
+ font-size:100%;
+
+ width:90%;
+
+ height:23px;
+
+ color:#333333;
+
+ text-align:left;
+
+ padding-left:20px;
+
+ border:1px #dddddd solid;
+
+ background:url("./img/midashi.jpg") no-repeat 100% 100%;
+
+}
+
+
+
+
+
+
+
+
+
+br{letter-spacing:normal;}
+
